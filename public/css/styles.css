@@ -130,7 +130,8 @@ body{
     height: 200px;
     margin:auto;
     padding: 10px;
-    background-color:grey;
+    border-color:black;
+    background-color:#36454F;
 }
 
 #info_box .box{
@@ -227,4 +228,24 @@ html {
     margin-top: 500px;
     width: 900px;
     margin-left: 15%;
+}
+
+.box{
+    background-color: white;
+}
+.block{
+    color:black;
+    font-size: 20px;
+}
+
+#stat{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image:url('https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/Vv03xyNwg/videoblocks-corporate-infographic-and-financial-data-on-a-blue-background_rzzemc05vw_thumbnail-1080_01.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+     background-attachment: fixed;
 }
